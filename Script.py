@@ -1,14 +1,14 @@
 class script(object):
-    START_TXT = """<b>𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈</b>"""
+    START_TXT = """<b>𝖧𝖾𝗒 {},
+𝖬𝗒 𝖭𝖺𝗆𝖾 𝗂𝗌 <a href=https://t.me/{}>{}</a>, 𝖨 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌, 𝗃𝗎𝗌𝗍 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖺𝗇𝖽 𝖬𝖺𝗄𝖾 𝗆𝖾 𝖠𝖽𝗆𝗂𝗇...</b>"""
     
-    HELP_TXT = """<b>𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
+    HELP_TXT = """<b>𝖧𝖾𝗒 {},
+𝗁𝖾𝗋𝖾 𝗂𝗌 𝗆𝗒 𝗁𝖾𝗅𝗉 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌.</b>"""
 
 
 # ⚠️ Please don't change our source code 👇🏻
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
+    ABOUT_TXT = """<b>𝖬𝗒 𝖭𝖺𝗆𝖾 : {}
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='tg://settings'>Tʜɪs ᴘᴇʀsᴏɴ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/AFxSU'>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>
