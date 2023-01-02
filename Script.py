@@ -8,31 +8,28 @@ class script(object):
 
 # ⚠️ Please don't change our source code 👇🏻
 
-    ABOUT_TXT = """<b>𝖬𝗒 𝖭𝖺𝗆𝖾 : {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='tg://settings'>Tʜɪs ᴘᴇʀsᴏɴ</a>
-✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/AFxSU'>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/quickfastt'>Qᴜɪᴄᴋ Fᴀsᴛ</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.0.3 [ Sᴛᴀʙʟᴇ ]</b>"""
+    ABOUT_TXT = """➲ 𝖬𝗒 𝖭𝖺𝗆𝖾 : {}
+➲ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href=https://t.me/athulx80>𝖠𝗍𝗁𝗎𝗅</a>
+➲ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href=https://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
+➲ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href='https://www.python.org/download/releases/3.0/'>𝖯𝗒𝗍𝗁𝗈𝗇</a>
+➲ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href=https://www.mongodb.com/>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</a>
+➲ 𝖡𝗈𝗍 𝖲𝖾𝗋𝗏𝖾𝗋 : 𝖠𝗇𝗒𝗐𝖾𝗋𝖾
+➲ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝗏𝟤.𝟢.𝟥 [ Sᴛᴀʙʟᴇ ]"""
 
-    SOURCE_TXT = """<b>NOTE:</b>
-<b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
-- 𝚂𝙾𝚄𝚁𝙲𝙴 - 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙿𝙾 𝙱𝚄𝚃𝚃𝙾𝙽</b>
-<b>DEVS:</b>
-- <a href=https://t.me/czdbotz>𝙲𝚉𝙳 𝙱𝙾𝚃𝚉</a>"""
+    SOURCE_TXT = """<b>⭕ NOTE:</b>
 
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+<b><i>-Sorry this is an open source project!</i></b>"""
 
-<b>- 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝚂 𝚃𝙷𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴 𝚆𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝚂 𝙲𝙰𝙽 𝚂𝙴𝚃 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙴𝙳 𝚁𝙴𝙿𝙻𝙸𝙴𝚂 𝙵𝙾𝚁 𝙰 𝙿𝙰𝚁𝚃𝙸𝙲𝚄𝙻𝙰𝚁 𝙺𝙴𝚈𝚆𝙾𝚁𝙳 𝙰𝙽𝙳 𝙴𝙻𝚂𝙰 𝚆𝙸𝙻𝙻 𝚁𝙴𝚂𝙿𝙾𝙽𝙳 𝚆𝙷𝙴𝙽𝙴𝚅𝙴𝚁 𝙰 𝙺𝙴𝚈𝚆𝙾𝚁𝙳 𝙸𝚂 𝙵𝙾𝚄𝙽𝙳 𝚃𝙷𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴</b>
+    MANUELFILTER_TXT = """Help: <b>ꜰɪʟᴛᴇʀꜱ</b>
 
-<b>NOTE:</b>
-<b>𝟷. 𝙳𝙾𝙲𝚃𝙾𝚁-𝚂𝚃𝚁𝙰𝙽𝙶𝙴 𝚂𝙷𝙾𝚄𝙻𝙳 𝙷𝙰𝚅𝙴 𝙰𝙳𝙼𝙸𝙽 𝙿𝚁𝙸𝚅𝙸𝙻𝙻𝙰𝙶𝙴.
-𝟸. 𝙾𝙽𝙻𝚈 𝙰𝙳𝙼𝙸𝙽𝚂 𝙲𝙰𝙽 𝙰𝙳𝙳 𝙵𝙸𝙻𝚃𝙴𝚁𝚂 𝙸𝙽 𝙰 𝙲𝙷𝙰𝚃.
-𝟹. 𝙰𝙻𝙴𝚁𝚃 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝙷𝙰𝚅𝙴 𝙰 𝙻𝙸𝙼𝙸𝚃 𝙾𝙵 𝟼𝟺 𝙲𝙷𝙰𝚁𝙰𝙲𝚃𝙴𝚁𝚂.</b>
+- 𝖥𝗂𝗅𝗍𝖾𝗋 𝗂𝗌 𝗍𝗁𝖾 𝖿𝖾𝖺𝗍𝗎𝗋𝖾𝗌 𝗐𝖾𝗋𝖾 𝗎𝗌𝖾𝗋𝗌 𝖼𝖺𝗇 𝗌𝖾𝗍 𝖠𝗎𝗍𝗈𝗆𝖺𝗍𝖾𝖽 𝖱𝖾𝗉𝗅𝗂𝖾𝗌 𝖿𝗈𝗋 𝖺 𝖯𝖺𝗋𝗍𝗂𝖼𝗎𝗅𝖺𝗋 𝖪𝖾𝗒𝖻𝗈𝖺𝗋𝖽 𝖺𝗇𝖽 𝖡𝖮𝖳 𝗐𝗂𝗅𝗅 𝖱𝖾𝗌𝗉𝗈𝗇𝖽 𝗐𝗁𝖾𝗇𝖾𝗏𝖾𝗋 𝖺 𝖪𝖾𝗒𝖻𝗈𝖺𝗋𝖽 𝗂𝗌 𝖿𝗈𝗎𝗇𝖽 𝗍𝗁𝖾 𝗆𝖾𝗌𝗌𝖺𝗀𝖾.
+<b>⭕ NOTE:</b>
 
-<b>Commands and Usage:</b>
+<b>1.⚙️ BOT should have Admin privilege.
+2.⚙️ Only Admins can Add filters in a chat.
+3.⚙️ Alert Buttons have a limited of 64 Characters.</b>
+
+<b>COMMANDS & USAGE:</b>
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
@@ -53,7 +50,7 @@ class script(object):
 
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
-<b>NOTE:</b>
+<b>⭕ NOTE:</b>
 <b>𝟷. 𝙼𝙰𝙺𝙴 𝙼𝙴 𝚃𝙷𝙴 𝙰𝙳𝙼𝙸𝙽 𝙾𝙵 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙸𝙵 𝙸𝚃'𝚂 𝙿𝚁𝙸𝚅𝙰𝚃𝙴.
 𝟸. 𝙼𝙰𝙺𝙴 𝚂𝚄𝚁𝙴 𝚃𝙷𝙰𝚃 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙳𝙾𝙴𝚂 𝙽𝙾𝚃 𝙲𝙾𝙽𝚃𝙰𝙸𝙽𝚂 𝙲𝙰𝙼𝚁𝙸𝙿𝚂, 𝙿𝙾𝚁𝙽 𝙰𝙽𝙳 𝙵𝙰𝙺𝙴 𝙵𝙸𝙻𝙴𝚂.
 𝟹. 𝙵𝙾𝚁𝚆𝙰𝚁𝙳 𝚃𝙷𝙴 𝙻𝙰𝚂𝚃 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚃𝙾 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚀𝚄𝙾𝚃𝙴𝚂.
@@ -68,7 +65,7 @@ class script(object):
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
 
-<b>NOTE:</b>
+<b>⭕ NOTE:</b>
 1. Only admins can add a connection.
 2. Send <code>/connect</code> for connecting me to ur PM
 
@@ -79,7 +76,7 @@ class script(object):
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
-<b>NOTE:</b>
+<b>⭕ NOTE:</b>
 these are the extra features of Elsa
 
 <b>Commands and Usage:</b>
@@ -210,7 +207,7 @@ Note:- <b>Give a user details</b>
 
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
-<b>NOTE:</b>
+<b>⭕ NOTE:</b>
 This module only works for my admins
 
 <b>Commands and Usage:</b>
