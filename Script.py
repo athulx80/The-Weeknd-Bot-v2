@@ -20,7 +20,7 @@ class script(object):
 
 <b><i>-Sorry this is an open source project!</i></b>"""
 
-    MANUELFILTER_TXT = """Help: <b>ꜰɪʟᴛᴇʀꜱ</b>
+    MANUELFILTER_TXT = """Help: <b>FILTERS</b>
 - 𝖥𝗂𝗅𝗍𝖾𝗋 𝗂𝗌 𝗍𝗁𝖾 𝖿𝖾𝖺𝗍𝗎𝗋𝖾𝗌 𝗐𝖾𝗋𝖾 𝗎𝗌𝖾𝗋𝗌 𝖼𝖺𝗇 𝗌𝖾𝗍 𝖠𝗎𝗍𝗈𝗆𝖺𝗍𝖾𝖽 𝖱𝖾𝗉𝗅𝗂𝖾𝗌 𝖿𝗈𝗋 𝖺 𝖯𝖺𝗋𝗍𝗂𝖼𝗎𝗅𝖺𝗋 𝖪𝖾𝗒𝖻𝗈𝖺𝗋𝖽 𝖺𝗇𝖽 𝖡𝖮𝖳 𝗐𝗂𝗅𝗅 𝖱𝖾𝗌𝗉𝗈𝗇𝖽 𝗐𝗁𝖾𝗇𝖾𝗏𝖾𝗋 𝖺 𝖪𝖾𝗒𝖻𝗈𝖺𝗋𝖽 𝗂𝗌 𝖿𝗈𝗎𝗇𝖽 𝗍𝗁𝖾 𝗆𝖾𝗌𝗌𝖺𝗀𝖾.
 
 <b>⭕ NOTE:</b>
@@ -34,7 +34,7 @@ class script(object):
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
 
-    BUTTON_TXT = """Help: <b>ʙᴜᴛᴛᴏɴꜱ</b>
+    BUTTON_TXT = """Help: <b>BUTTONS</b>
 
 𝖨 𝖼𝖺𝗇 𝖲𝗎𝗉𝗉𝗈𝗋𝗍𝗌 𝖻𝗈𝗍𝗁 𝖴𝖱𝖫 𝖺𝗇𝖽 𝖠𝗅𝖾𝗋𝗍 𝖨𝗇𝗅𝗂𝗇𝖾 𝖡𝗎𝗍𝗍𝗈𝗇𝗌 ♥️
 
@@ -48,7 +48,7 @@ class script(object):
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
 
-    AUTOFILTER_TXT = """Help: <b>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ</b>
+    AUTOFILTER_TXT = """Help: <b>AUTO FILTER</b>
 
 <b>⭕ NOTE:</b>
 <b>1. Make me Admin of your Channel if it's Private.
@@ -56,12 +56,12 @@ class script(object):
 3. Forward the Last Massage to me with Quotes. I'll Add the Files in that Channel to my DB.</b>
 
 <b>Commands and Usage:</b>
-<b>/set_template - 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙵𝙾𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
-<b>/get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
-<b>/autofilter on - 𝙴𝙽𝙰𝙱𝙻𝙴 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>
-<b>/autofilter off - 𝙳𝙸𝚂𝙰𝙱𝙻𝙴𝙳 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>"""
+<b>/set_template - Custom IMDb Template For Auto Filter.</b>
+<b>/get_template - Get current IMDB Template of Auto Filter.</b>
+<b>/autofilter on - Enable Auto Filter in the Groups.</b>
+<b>/autofilter off - Disabled Auto Filter in the Groups.</b>"""
 
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """Help: <b>CONNECTIONS</b>
 
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
@@ -75,7 +75,7 @@ class script(object):
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
 
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """Help: <b>EXTRA MODULES</b>
 
 <b>⭕ NOTE:</b>
 these are the extra features of The Weeknd Bot
@@ -86,16 +86,15 @@ these are the extra features of The Weeknd Bot
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
 
-    SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
+    SONG_TXT = """<b>SONG DOWNLOAD MODULE</b>
 
-<i>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝙴 𝙵𝙾𝚁 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴𝙳.𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿𝚂../</i>
+<i>Song Download Module, For those who Love Music. You can use this Feature for Download any Song with Super fast Speed. Works only on Groups..!/</i>
+<b>COMMANDS</b>
 
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂</b>
+⏭️ /song Song Name
 
-⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
-
-<b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-~ @MEmpire_Official"""
+<b>Works both Group and PM!</b>
+© @MEmpire_Official"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 • 𝘜𝘴𝘢𝘨𝘦
@@ -126,7 +125,7 @@ Translate text to speech
 Do as you wish with telegra.ph module!
 </b>USAGE:</b>
 ✒️ /telegraph - Send me Picture or Vide Under (5MB)
-<b>NOTE:</b>
+<b>⭕ NOTE:</b>
 • This Command Is Available in goups and pms
 • This Command Can be used by everyone"""
 
