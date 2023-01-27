@@ -202,8 +202,8 @@ Note:- <b>Give a user details</b>
     
 <b>⚡ 𝙹𝚄𝚂𝚃 𝚂𝙾𝙼𝙴 𝙺𝙸𝙽𝙳 𝙾𝙵 𝙵𝚄𝙽 𝚃𝙷𝙸𝙽𝙶'𝚂 ⚡</b>
  
-𝟣. /dice - 𝚁𝙾𝙻𝙴 𝚃𝙷𝙴 𝙳𝙸𝙲𝙴 
-𝟤. /Throw 𝗈𝗋 /Dart - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙳𝙰𝚁𝚃 
+1. /dice - 𝚁𝙾𝙻𝙴 𝚃𝙷𝙴 𝙳𝙸𝙲𝙴 
+2. /Throw 𝗈𝗋 /Dart - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙳𝙰𝚁𝚃 
 3. /Runs - 𝚂𝙾𝙼𝙴 𝚁𝙰𝙽𝙳𝙾𝙼 𝙳𝙸𝙰𝙻𝙾𝙶𝚄𝙴𝚂 
 4. /Goal or /Shoot - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙰 𝙶𝙾𝙰𝙻 𝙾𝚁 𝚂𝙷𝙾𝙾𝚃
 5. /luck or /cownd - 𝚂𝙿𝙸𝙽 𝙰𝙽𝙳 𝚃𝚁𝚈 𝚈𝙾𝚄𝚁 𝙻𝚄𝙲𝙺"""
@@ -243,16 +243,16 @@ This module only works for my admins
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
-Added By - {}
-𝙲𝚉𝙳 𝙱𝙾𝚃𝚉
-"""
+Added By - {}"""
+
+
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
-Name - {}
-𝙲𝚉𝙳 𝙱𝙾𝚃𝚉
-"""
+Name - {}"""
+
+
     FILE_MSG = """
-<b>Hai 👋 {} </b>😍
+<b>Hey 👋 {} </b>😍
 
 <b>📫 Your File is Ready</b>
 
@@ -261,7 +261,7 @@ Name - {}
 <b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{}</b>
 """
     CHANNEL_CAP = """
-<b>Hai 👋 {}</b> 😍
+<b>Hey 👋 {}</b> 😍
 
 <code>{}</code>
 
@@ -279,24 +279,24 @@ Name - {}
 """
 
     IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+<b>📺 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+🎭 ɢᴇɴʀᴇꜱ : {genres}
+⭐ ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
 
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
-📖 sᴛᴏʀʏ : {plot} 
+🗓️ ʏᴇᴀʀ : {release_date}
+🎙️ ʟᴀɴɢᴜᴀɢᴇ : {languages}
+🌐 ᴄᴏᴜɴᴛʀʏ : {countries}
+📑 ꜱᴛᴏʀʏ : {plot} 
 
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CUSTOM_FILE_CAPTION = """<b>📂ꜰɪʟᴇ ɴᴀᴍᴇ : {file_name}
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/at3movies> ᴍᴏᴠɪᴇ ʜᴜʙ </a>
-▫️<a href=https://t.me/Colours_Movies> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
+▫️<a href=https://t.me/+L8SWfrF_7m04ODZl> ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/+hC5tRAvQHHplMWQ1> ɢʀᴏᴜᴘ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     RESTART_TXT = """
@@ -321,7 +321,7 @@ Name - {}
 𝗜𝗗 <b>: {}</b>
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>
-©𝙲𝚉𝙳 𝙱𝙾𝚃𝚉"""
+©𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐈𝐑𝐄"""
 
     I_CUDNT = """𝑯𝑬𝑳𝑳𝑶 {} 𝑰 𝑪𝑶𝑼𝑳𝑫𝑵'𝑻 𝑭𝑰𝑵𝑫 𝑨𝑵𝒀 𝑴𝑶𝑽𝑰𝑬 𝑰𝑵 𝑻𝑯𝑨𝑻 𝑵𝑨𝑴𝑬 ."""
 
