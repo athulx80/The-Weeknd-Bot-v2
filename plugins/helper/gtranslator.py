@@ -21,7 +21,7 @@ async def left(client,message):
                                     ],
 				    [
                                         InlineKeyboardButton(
-                                            "𝘊𝘭𝘰𝘴𝘦", callback_data="close_data"
+                                            "CLOSE", callback_data="close_data"
                                         )
                                     ],
                                 ]
